@@ -1,5 +1,10 @@
 import React from "react";
+import { SignIn } from "@clerk/nextjs";
 
-export default function SignIn() {
-  return <div>sign-in</div>;
+export default function SignInPage() {
+  return (
+    <div>
+      <SignIn />
+    </div>
+  );
 }
