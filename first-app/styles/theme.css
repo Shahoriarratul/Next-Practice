@@ -176,7 +176,7 @@
   }
 
   .placeholder {
-    @apply placeholder:text-light-400 dark:placeholder:text-light-;
+    @apply placeholder:text-light-400 dark:placeholder:text-light-500;
   }
 
   .invert-colors {
@@ -199,7 +199,6 @@
     background: linear-gradient(
       232deg,
       rgba(23, 28, 35, 0.41) 0%,
-
       rgba(19, 22, 28, 0.7) 100%
     );
   }
